@@ -1,0 +1,45 @@
+[
+    {
+        "Name": "bridge",
+        "Id": "d57bdc90df065a5179764a3a3cb709db91bbf29dbae0a84229d61486da249d1b",
+        "Created": "2023-07-23T10:23:56.678648526+02:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.17.0.0/16",
+                    "Gateway": "172.17.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "654e0bba0d9f3e3bb328ee122a874d402c462fe1d8c137684014651cc4c40dc4": {
+                "Name": "mynginx",
+                "EndpointID": "f9af0f5f5d94955869577fb714ae2d2c8437bcb34189035ae04eae436a0d8459",
+                "MacAddress": "02:42:ac:11:00:02",
+                "IPv4Address": "172.17.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.bridge.default_bridge": "true",
+            "com.docker.network.bridge.enable_icc": "true",
+            "com.docker.network.bridge.enable_ip_masquerade": "true",
+            "com.docker.network.bridge.host_binding_ipv4": "0.0.0.0",
+            "com.docker.network.bridge.name": "docker0",
+            "com.docker.network.driver.mtu": "1500"
+        },
+        "Labels": {}
+    }
+]

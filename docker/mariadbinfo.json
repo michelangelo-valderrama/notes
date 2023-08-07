@@ -1,0 +1,139 @@
+[
+    {
+        "Id": "sha256:011343cf3ec310ee1d70da41536b2ae61e93633dafdba600d865beeb93db6ff8",
+        "RepoTags": [
+            "mariadb:latest"
+        ],
+        "RepoDigests": [
+            "mariadb@sha256:f94bb4868d953fed5220c9d3cdc8449f4c314efb07d3a18eefa6010b383f2ab8"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2023-07-04T18:28:33.531386548Z",
+        "Container": "96199710f9778556914b1c0cd1152e469e3a375df79899bc77f061e7d3f09771",
+        "ContainerConfig": {
+            "Hostname": "96199710f977",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3306/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.14",
+                "LANG=C.UTF-8",
+                "MARIADB_VERSION=1:11.0.2+maria~ubu2204"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"mariadbd\"]"
+            ],
+            "Image": "sha256:60c017b98f2ef9b36160d46c19fbfda8d3b8ccd00a389d36bbe98c9e03c7ad55",
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.authors": "MariaDB Community",
+                "org.opencontainers.image.base.name": "docker.io/library/ubuntu:jammy",
+                "org.opencontainers.image.description": "MariaDB Database for relational SQL",
+                "org.opencontainers.image.documentation": "https://hub.docker.com/_/mariadb/",
+                "org.opencontainers.image.licenses": "GPL-2.0",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.source": "https://github.com/MariaDB/mariadb-docker",
+                "org.opencontainers.image.title": "MariaDB Database",
+                "org.opencontainers.image.url": "https://github.com/MariaDB/mariadb-docker",
+                "org.opencontainers.image.vendor": "MariaDB Community",
+                "org.opencontainers.image.version": "11.0.2"
+            }
+        },
+        "DockerVersion": "20.10.23",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3306/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.14",
+                "LANG=C.UTF-8",
+                "MARIADB_VERSION=1:11.0.2+maria~ubu2204"
+            ],
+            "Cmd": [
+                "mariadbd"
+            ],
+            "Image": "sha256:60c017b98f2ef9b36160d46c19fbfda8d3b8ccd00a389d36bbe98c9e03c7ad55",
+            "Volumes": {
+                "/var/lib/mysql": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.authors": "MariaDB Community",
+                "org.opencontainers.image.base.name": "docker.io/library/ubuntu:jammy",
+                "org.opencontainers.image.description": "MariaDB Database for relational SQL",
+                "org.opencontainers.image.documentation": "https://hub.docker.com/_/mariadb/",
+                "org.opencontainers.image.licenses": "GPL-2.0",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.source": "https://github.com/MariaDB/mariadb-docker",
+                "org.opencontainers.image.title": "MariaDB Database",
+                "org.opencontainers.image.url": "https://github.com/MariaDB/mariadb-docker",
+                "org.opencontainers.image.vendor": "MariaDB Community",
+                "org.opencontainers.image.version": "11.0.2"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 403255086,
+        "VirtualSize": 403255086,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/4267bd7cd6e74a847c7705716f2ec707d659e8a7e0079086860c5742e7de5b90/diff:/var/lib/docker/overlay2/612a6cc7c3d682b8a2ee6be4b6c30587a889c5b70d7a880e4f863e8a7fc7e670/diff:/var/lib/docker/overlay2/9b2ede34e0b1716d794584c103efd8680f4b3f339eda2ed1cb1c120d949e6c3e/diff:/var/lib/docker/overlay2/144b2fc665db3ffa9fcd21a1a23b3bdde4268a324d33bb1cfb7109034500804d/diff:/var/lib/docker/overlay2/4a65484296a2cd97349aeef705f4d646c920683fbf3fb7ead3c844c3b54f3332/diff:/var/lib/docker/overlay2/c845b38521d5f02a71b38260856ba4e8f5da32ff9f1811cca5e497f67b1d3877/diff:/var/lib/docker/overlay2/2cf8f10c73dcc5a6b410deb7087fab49b40b262a26345e529962c56644fc00c6/diff",
+                "MergedDir": "/var/lib/docker/overlay2/deef45e4ca35b7fd08cd1dc48510f23c4607f7dc8c745675545839bf72773c23/merged",
+                "UpperDir": "/var/lib/docker/overlay2/deef45e4ca35b7fd08cd1dc48510f23c4607f7dc8c745675545839bf72773c23/diff",
+                "WorkDir": "/var/lib/docker/overlay2/deef45e4ca35b7fd08cd1dc48510f23c4607f7dc8c745675545839bf72773c23/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:59c56aee1fb4dbaeb334aef06088b49902105d1ea0c15a9e5a2a9ce560fa4c5d",
+                "sha256:9c4ad43485970f7a8ef62f0fbccc390c969e64ab3c49f3f76d52143b31f53a64",
+                "sha256:259d9bbf652d23b7edffa8789f9734556aeb9af17a4cf861e33cd8865883fe40",
+                "sha256:f613f6995bb84e6359300e7fd2158d2086aea2f58849f25d37d42b6f531d1fe9",
+                "sha256:6ca56b848d8c2e6eefe8ecad2c87c671542d342c1d077a5f2151fddaa5ae696a",
+                "sha256:26fb3b09836175ffc7886429fa7d9a7a29b5361e79ee62b5d9d451b8da93e071",
+                "sha256:526407a5445936c73525d6ff8759d88c3cbb8bee633e9b0b10e9b0581f1510f3",
+                "sha256:c9b7d53a7da8865f3c9e3ae23d664dac47f704abfcc480be383438685aad026e"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]
